@@ -2,7 +2,7 @@
 
 {
   programs.home-manager.enable = true;
-  home.packages = with pkgs; [ aria neofetch gotop speedtest-cli ];
+  home.packages = with pkgs; [ aria2 neofetch gotop speedtest-cli ];
 
   zsh = {
     enable = true;
